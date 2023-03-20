@@ -1,0 +1,136 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    margin: 10px;
+}
+
+.header > div{
+    padding: 0px 10px;
+}
+
+.header > div a{
+    text-decoration: none;
+    color: #212121;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+
+}
+
+.icon_menu{
+    cursor: pointer;
+    width: 20px;
+}
+.icon_profile_img{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.home{
+    max-height: 290px;
+    height: calc(100% - 560px);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+
+.div_form{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 30px auto;
+}
+
+
+.img_search{
+    width: 20px;
+    padding: 0px 13px 0px 0px;
+
+}
+
+.input_search{
+    width: 400px;
+}
+
+.img_keyboard{
+    width: 20px;
+    padding: 0px 13px;
+}
+
+.img_microphone{
+    width: 20px;
+    padding: 0px 13px;
+
+}
+
+.img_camera{
+    width: 20px;
+    padding: 0px 13px;
+}
+
+
+.div_buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.input_search_button{
+    margin: 11px 4px;
+    padding: 0px 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.bottom_white{
+    flex-grow: 1;
+}
+
+.brasil{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.footer_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer_a{
+    padding:0px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #70757a;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
