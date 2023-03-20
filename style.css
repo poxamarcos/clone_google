@@ -134,3 +134,10 @@
     font-size: 14px;
     font-family: arial,sans-serif;
 }
+
+
+@media (max-width:37em) {
+    .input_search{
+        width: 200px;
+    }
+}
